@@ -47,6 +47,7 @@ def rand_color():
             random.randint(0, 255),
             random.randint(0, 255))
 
+
 def add_line(screen, text, x, y):
     # used to print the status of the variables
     text = font.render(text, True, white) 
@@ -55,6 +56,7 @@ def add_line(screen, text, x, y):
     screen.blit(text, text_rect)
 
 
+# these are used when inputting colors into pygame
 black = (0, 0, 0)
 white = (255, 255, 255)
 
